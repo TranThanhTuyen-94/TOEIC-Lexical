@@ -45,10 +45,17 @@
     }
     #reviewTitle {
       font-size: 3em;
+      color: #DA70D6; /* Lotus pink */
       font-family: 'Rubik', sans-serif;
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
+    #slogan {
+  font-size: 0.9em;
+  color: black;
+  text-align: center;
+  margin-top: 0; /* Removes extra space above slogan */
+}
     .startLine {
       display: flex;
       justify-content: center;
@@ -185,9 +192,7 @@
 
   <div id="selectorScreen">
     <h1 id="reviewTitle">⚡ TOEIC Lexical</h1>
-    <p style="font-size: 0.7em; color: black; text-align: center;">
-  For Tra Vien with flourishment
-    </p>
+<p id="slogan">For Tra Vien with flourishment.</p>
     <div class="startLine">
       <button id="startBtn" onclick="startReview()">Start</button>
     </div>
@@ -321,6 +326,7 @@ sheetList.appendChild(dateContainer);
   </script>
 </body>
 </html>
+
 
 
 
